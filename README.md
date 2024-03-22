@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
 
+![Capture d'écran 2024-03-22 180554](https://github.com/theonlyymanal/Meteo-Application/assets/155531725/d62a164b-ac6b-4153-8ac6-f5b07ec673f8)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
