@@ -1,0 +1,19 @@
+<div class="weather-container">
+    <mat-form-field appearance="fill" class="appear">
+      <mat-label>Entrez le nom d'une ville</mat-label>
+      <input matInput type="text" [(ngModel)]="city" class="long-input" placeholder="Ex: Oujda">
+    </mat-form-field>
+    <div class="button-container"> 
+      <button mat-raised-button color="primary" (click)="getWeather()">Obtenir la météo</button>
+  </div>
+    
+    <div *ngIf="weatherInfo" class="weather-info">
+      <h2>Météo à {{ weatherInfo.name }}</h2>
+      <p>Température: {{ weatherInfo.main.temp }} °C</p>
+      <p>Conditions: {{ weatherInfo.weather[0].description }}</p>
+      <p>Humidité: {{ weatherInfo.main.humidity }}%</p>
+      <p>Vent: {{ weatherInfo.wind.speed }} km/h</p>
+    </div>
+  </div>
+  
+  
